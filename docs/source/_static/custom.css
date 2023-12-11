@@ -1,0 +1,11 @@
+@media (min-width: 768px) {
+    .wy-nav-side {
+        float: right;
+    }
+
+    .wy-nav-content-wrap {
+        margin-right: 300px;
+        /* Adjust the width of the sidebar */
+        margin-left: 0;
+    }
+}
