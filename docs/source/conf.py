@@ -32,10 +32,17 @@ templates_path = ['_templates']
 html_theme = 'sphinx_rtd_theme'
 
 html_theme_options = {
-    'rightsidebar': True,
+    'navigation_depth': 4,
+    'collapse_navigation': True,
+    'sticky_navigation': True,
+    'includehidden': True,
+    'titles_only': False,
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': True,
+    'vcs_pageview_mode': '',
+    # Toggles the sidebar. 'False' will move it to the right.
+    'right_sidebar': 'True'
 }
-
-
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
