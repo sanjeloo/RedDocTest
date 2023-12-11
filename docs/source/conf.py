@@ -30,10 +30,10 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
-
-# -- static custom file
-html_static_path = ['_static']
-html_css_files = ['custom.css']
+html_theme_options = {
+    "rightsidebar": "true",
+    "relbarbgcolor": "black"
+}
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
