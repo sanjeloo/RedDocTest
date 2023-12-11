@@ -31,5 +31,11 @@ templates_path = ['_templates']
 
 html_theme = 'sphinxdoc'
 
+html_theme_options = {
+    'rightsidebar': True,
+}
+
+
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
